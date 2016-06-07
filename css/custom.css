@@ -5,21 +5,26 @@
 .navbar-text > a {
 	color: inherit;
 	text-decoration: none;
-}
-body {
-	padding-top: 80px;
-}
-.row	{
-	/*padding-top: 5px;*/
+  margin-left: 10px;
 }
 
+/*body home*/
+.hotbeverage  {
+  padding-top: 40px;
+}
+body  {
+  padding-top: 80px;
+}
+.row	{
+	padding-top:50px;
+}
 /*contact pop up on screen*/
 .modal-backdrop	{
 	z-index: auto;
 }
 
 /*jumbotron styling*/
-.jumbotron {
+.jumbotron{
     background: url(../img/backgroundhome.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -27,6 +32,25 @@ body {
 	color: white;
 }
 
+
+/*Hot Bev*/
+.carousel-caption p {
+  font-size: 20px;
+  display: inline;
+}
+.carousel-caption{
+  margin-bottom: 40%;
+  margin-left: 33%;
+}
+hr.vertical {   
+    transform: rotate(90deg);
+    width: 10px;
+    display: inline-block;
+}
+h3.freshcoffee, .cocktails {
+  font-family: 'Kaushan Script', cursive;
+
+}
 /*÷÷÷÷÷÷CUSTOM BUTTONS÷÷÷÷÷÷÷*/
 
 /*More info*/
@@ -177,7 +201,6 @@ fieldset[disabled] .btn-custom-neon.active {
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
   background-color: #ff54eb;
-}
 .navbar-default .navbar-toggle {
   border-color: #ff54eb;
 }
