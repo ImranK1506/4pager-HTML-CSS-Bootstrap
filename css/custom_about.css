@@ -2,33 +2,27 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+body {
+  padding-top: 80px;
+}
+
 /*social buttons*/
 .navbar-text > a {
 	color: inherit;
 	text-decoration: none;
-  margin-left: 10px;
+   margin-left: 10px;
 }
 .navbar-text > a:hover {
   color: #54DDFF;
 }
 
-/*body home*/
-.hotbeverage  {
-  padding-top: 40px;
-}
-body  {
-  padding-top: 80px;
-}
-.row	{
-	padding-top:50px;
-}
 /*contact pop up on screen*/
 .modal-backdrop	{
 	z-index: auto;
 }
 
 /*jumbotron styling*/
-.jumbotron{
+.jumbotron {
     background: url(../img/backgroundhome.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -36,24 +30,22 @@ body  {
 	color: white;
 }
 
-/*Hot Bev*/
-.carousel-caption p {
-  font-size: 20px;
-  display: inline;
+/*About*/
+.img-circle {
+  height: 400px;
+  margin-left: 60px;
 }
-.carousel-caption{
-  margin-bottom: 40%;
-  margin-left: 33%;
+.img-inside {
+  height: 100%;
 }
-.vertical {   
-    transform: rotate(90deg);
-    width: 10px;
-    display: inline-block;
+.story {
+  font-size: 15px;
 }
-.freshcoffee, .cocktails {
-  font-family: 'Kaushan Script', cursive;
+.img-inside {
+  height: 500px;
+  margin-left:30px;
+}
 
-}
 /*÷÷÷÷÷÷CUSTOM BUTTONS÷÷÷÷÷÷÷*/
 
 /*More info*/
@@ -98,6 +90,7 @@ fieldset[disabled] .btn-custom-purple.active {
   border-color: #000000; 
 } 
 
+/*More info*/
 .btn-custom-purple .badge { 
   color: #FF54EB; 
   background-color: #FFFFFF; 
@@ -109,6 +102,7 @@ fieldset[disabled] .btn-custom-purple.active {
   background-color: #54DDFF; 
   border-color: #000000; 
 } 
+ 
 .btn-custom-neon:hover, 
 .btn-custom-neon:focus, 
 .btn-custom-neon:active, 

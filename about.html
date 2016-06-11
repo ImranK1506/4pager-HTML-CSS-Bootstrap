@@ -11,13 +11,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
     <!-- Overwrite bootstrap CSS by Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/custom_about.css">
     <!-- Custom Font -->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 
   </head>
-  <body class="hotbeverage">
+  <body>
 
 <!-- navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -38,7 +37,7 @@
           <!-- navbar align and styling -->
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>       
-            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="#about">About</a></li>
             <li class="dropdown">
               <!-- dropdown "Cocktails & More" -->
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cocktails & More<b class="caret"></b></a>
@@ -49,8 +48,8 @@
                 <!-- divider -->
                 <li class="divider"></li>
                 <li class="dropdown-header">Hot beverages</li>
-                <li><a href="#">Fresh Coffee</a></li>
-                <li><a href="#">Macchiato</a></li>
+                <li><a href="hot.html">White Coffee</a></li>
+                <li><a href="hot.html">Latte Machiato</a></li>
               </ul>
             </li>            
             <li><a href="#contact" data-toggle="modal">Contact</a></li>
@@ -58,61 +57,38 @@
         </div><!--/nav-collapse -->
       </div>
 </div>
-<!-- Jumbotron -->
 <div class="container">
+    <div class="row">                                     
+        <div class="col-sm-6 story text-center"> 
 
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-      </ol>
- 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="img/coffee1.jpg" alt="Freshly brewed everyday">
-      <div class="carousel-caption">
-        <h3 class="freshcoffee">Fresh Coffee</h3>
-        <hr class="dividecarousel"></hr>
-          <p>S |</p><p> €1,95</p>
-            <hr class="vertical">
-          <p>M |</p><p> €2,95</p>
-            <hr class="vertical">
-          <p>L |</p><p> €4,95</p>
-      </div>
+      <h1>NYCDA Cocktails & More</h1>
+                
+            <img class="img-responsive img-circle" src="img/bar.jpg" />
+            <br>
+            <p>"If you are looking for a nice atmosphere and want to have some descent beverages that are just going to make you levitate to another dimension after a hectic week or your final exams in college or have been through any unfortunate situation lately, We got just the spot for you!"</p>
+
+            <p>Relax. Enjoy. B.Yourself</p>
+        </div> 
+
+        <div class="col-sm-6 story text-center">
+                 <p>Our story is pretty awesome, This NYCDA cocktails bar was introduced by two very fancy and smart guys called Leandro Carolino(A very good looking brazilian guy who has been living in Holland for quite some time) and Imran khan (A pakistani-dutch guy who is rocking the coding world and just doing his thing.) who came up with this idea to make people get in their zone and enjoy the purities of quality beverages.</p>
+
+                 <img class="img-responsive img-inside" src="img/bar2.jpg" />
+
+        </div>
+                            
     </div>
-    <div class="item">
-      <img src="img/machiato1.jpg" alt="Coffee with a milk twist">
-      <div class="carousel-caption">
-            <h3 class="freshcoffee">Macchiato</h3>
-        <hr class="dividecarousel"></hr>
-          <p>S |</p><p> €2,95</p>
-            <hr class="vertical">
-          <p>M |</p><p> €3,95</p>
-            <hr class="vertical">
-          <p>L |</p><p> €5,95</p>
-      </div>
-    </div>
-
-      <!-- Controls -->
-  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div> <!-- Carousel -->
-
-  
-</div>
- 
+    
 <!-- Footer -->
+</div>
+
+</div>
+
 <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
   <div class="container">
     <div class="navbar-text pull-left">
 
-      <p>© 2016 NYCDA / Imran & Leandro</p>
+      <p>© 2016 NYCDA</p>
 
     </div>
     <div class="navbar-text pull-right">
@@ -163,8 +139,8 @@
   </div>
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
   </body>
 </html>
