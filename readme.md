@@ -21,7 +21,8 @@ V3.3.6
 <strong>font-awesome</strong><br>
 4.6.3
 	
-<strong>Custom.css</strong>: Buttons + dropdowns
+<strong>Custom.css</strong><br>
+Buttons + dropdowns
 
 <h2>Authors</h2>
 Imran Khan & Leandro Carolino
