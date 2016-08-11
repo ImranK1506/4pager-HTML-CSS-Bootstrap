@@ -18,7 +18,8 @@ Pages	: 4 + 1 modal for contacts
 Bootstrap 		: V3.3.6
 font-awesome 	: 4.6.3
 	
-<i>Custom.css</i>
+<u>Custom.css</u>
+<br>
 Buttons + dropdowns
 
 <h2>Authors</h2>
