@@ -17,7 +17,8 @@ Pages	: 4 + 1 modal for contacts
 
 <strong>Bootstrap</strong><br>
 V3.3.6
-<p><strong>font-awesome</strong></p>
+<p></p>
+<strong>font-awesome</strong><br>
 4.6.3
 	
 <strong>Custom.css</strong>: Buttons + dropdowns
