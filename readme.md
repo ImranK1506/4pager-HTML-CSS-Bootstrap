@@ -15,11 +15,11 @@ Pages	: 4 + 1 modal for contacts
 
 <h2>Resources</h2>
 
-	Bootstrap 		: V3.3.6
-	font-awesome 	: 4.6.3
+Bootstrap 		: V3.3.6
+font-awesome 	: 4.6.3
 	
-	<i>Custom.css</i>
-	Buttons + dropdowns
+<i>Custom.css</i>
+Buttons + dropdowns
 
 <h2>Authors</h2>
 Imran Khan & Leandro Carolino
