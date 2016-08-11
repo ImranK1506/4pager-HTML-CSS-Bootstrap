@@ -15,9 +15,10 @@ Pages	: 4 + 1 modal for contacts
 
 <h2>Resources</h2>
 
-Bootstrap 		: V3.3.6
-<br>
-font-awesome 	: 4.6.3
+<strong>Bootstrap</strong><br>
+V3.3.6
+<strong>font-awesome</strong><br>
+4.6.3
 	
 <strong>Custom.css</strong>: Buttons + dropdowns
 
