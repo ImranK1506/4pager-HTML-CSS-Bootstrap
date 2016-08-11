@@ -7,7 +7,7 @@
 Pages	: 4 + 1 modal for contacts
 
 <ul>
-	<li>Home/li>
+	<li>Home</li>
 	<li>About</li>
 	<li>Hot</li>
 	<li>Cold</li>
