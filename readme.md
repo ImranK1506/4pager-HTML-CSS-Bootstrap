@@ -1,6 +1,6 @@
 <h1>Business website - NYCDA Cocktails & More</h1>
 
-This is my first website build with Bootstrap. The goal was to construct a website for a business.
+This is my first website build with Bootstrap. The goal was to construct a website for a business with at least 3 pages.
 
 <h2>Design</h2>
 
