@@ -203,6 +203,8 @@ fieldset[disabled] .btn-custom-neon.active {
 .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
   background-color: #ff54eb;
+}
+
 .navbar-default .navbar-toggle {
   border-color: #ff54eb;
 }
